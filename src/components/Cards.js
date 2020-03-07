@@ -21,6 +21,7 @@ export default class Cards extends React.Component {
                                 <div className="card__title">{_.get(item, 'title')}</div>
                                 <div className="card__description">{_.get(item, 'description')}</div>
                                 <Link to={_.get(item, 'linkUrl')} className="card__btn" target="_blank">{_.get(item, 'link')}</Link>
+                                <Link to={_.get(item, 'linkUrl')} className="card__btn" target="_blank">{_.get(item, 'link')}</Link>
                             </div>
                         </div>
                     </li>
